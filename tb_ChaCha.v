@@ -5,16 +5,6 @@ module tb_chacha();
   localparam CLK_HALF_PERIOD = 1;
   localparam CLK_PERIOD = 2 * CLK_HALF_PERIOD;
 
-  localparam TC1  = 1;
-  localparam TC2  = 2;
-  localparam TC3  = 3;
-  localparam TC4  = 4;
-  localparam TC5  = 5;
-  localparam TC6  = 6;
-  localparam TC7  = 7;
-  localparam TC8  = 8;
-  localparam TC9  = 9;
-  localparam TC10 = 10;
 
   localparam KEY_128_BITS = 0;
   localparam KEY_256_BITS = 1;
